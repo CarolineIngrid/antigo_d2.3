@@ -29,6 +29,8 @@
 .container{
     margin-left: 5%;
     margin-top: 10%;
+    line-height: 36px;
+    padding-right: 65%;
   }
   
   body {
@@ -38,37 +40,41 @@
     color: #293651;
   }
   
-  h2{
-    color: #6a8d11;
-    font-weight: 200;
-  }
-  
-  #diminuir{
-    font-weight: 200;
-  }
-  
   /* --------BOTÃO---------- */
   .info{
     background-color: #6a8d11;
     height: 45px;
     width: 220px;
     border: none;
-    border-radius: 5%;
+    border-radius: 30px;
     color: #ffff;
     font-size: 16px;
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+  }
+
+  .info:hover{
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(10px 5px 5px rgba(139, 134, 134, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(151, 150, 150, 0.5));
+  }
+
+.barra-navegacao li >:hover{
+    color: #dae2c3;
+  }
+
+  .barra-navegacao li > a{
+    color: #fff;
+    text-decoration: none;
   }
   /* --------------------------------- */
   
-  .cinza{
-    color: #949ca2;
-  }
   
   .foto{
     margin-left: 18%;
     text-align: center;
-   margin-top: -370px;
+    margin-top: -370px;
 
   }
 
@@ -94,4 +100,23 @@
     width: 500px;
     height: 500px;
     background-color: #a70054;
+  }
+
+  /* -----------------TIPOGRAFIA ------------------- */
+
+  .cinza{
+    color: #777676;
+  }
+
+  h2{
+    color: #6a8d11;
+    font-weight: 200;
+  }
+  
+  #diminuir{
+    font-weight: 200;
+  }
+
+  .container h1,p,h3{
+    padding-top: 15px;
   }
