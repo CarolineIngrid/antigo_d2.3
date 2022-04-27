@@ -39,6 +39,16 @@
     font-weight: 400;
     color: #293651;
   }
+
+  #sobre{
+    background-color: #d7d9db;
+    height: 900px;
+  }
+
+  .servicos{
+    background-color: #0c3b76;
+    margin-top: 50px;
+  }
   
   /* --------BOTÃO---------- */
   .info{
@@ -82,24 +92,10 @@
     width: 800px;
     height: 800px;
   }
-  
-  #informacoes{
-    margin: 20%;
-    margin-top: 30px;
-  }
-  
-  
-  .tabela{
-    width: 500px;
-    height: 500px;
-    background-color: #00a78e;
-    padding: 50px;
-  }
-  
-  .tabela2{
-    width: 500px;
-    height: 500px;
-    background-color: #a70054;
+
+  #sobre img {
+    width: 600px;
+    height: 600px;
   }
 
   /* -----------------TIPOGRAFIA ------------------- */
