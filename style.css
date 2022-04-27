@@ -1,0 +1,70 @@
+.barra-navegacao{
+    list-style: none;
+    color: brown;
+}
+
+.container{
+    margin-left: 15%;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #293651;
+  }
+  
+  h2{
+    color: #00a78e;
+    font-weight: 200;
+  }
+  
+  #diminuir{
+    font-weight: 200;
+  }
+  
+  /* --------BOTÃO---------- */
+  .info{
+    background-color: #00a78e;
+    height: 45px;
+    width: 220px;
+    border: none;
+    border-radius: 5%;
+    color: #ffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+  }
+  /* --------------------------------- */
+  
+  img{
+    margin-top: 20px;
+    margin-left: -14%;
+  }
+  
+  .cinza{
+    color: #949ca2;
+  }
+  
+  .foto{
+    text-align: center;
+  }
+  
+  #informacoes{
+    margin: 20%;
+    margin-top: 30px;
+  }
+  
+  
+  .tabela{
+    width: 500px;
+    height: 500px;
+    background-color: #00a78e;
+    padding: 50px;
+  }
+  
+  .tabela2{
+    width: 500px;
+    height: 500px;
+    background-color: #a70054;
+  }
