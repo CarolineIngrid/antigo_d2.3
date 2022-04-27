@@ -1,6 +1,6 @@
 .barra-navegacao{
     list-style: none;
-    color: brown;
+    color: #fff;
     text-align: right;
     /* display:inline; */
 }
@@ -10,8 +10,21 @@
     padding: 5px;
 }
 
+/* ------------- BACKGROUND DIAGONAL ---------- */
+
+.background-linear {
+    width: 100%;
+    min-width: auto;
+    height: auto;
+    /* min-height: 600px; */
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(25deg, #fff 60%, #00a78e 40%);
+}
+
+/* ------------------------------------------------------ */
+
 .container{
-    margin-left: 15%;
+    margin-left: 10%;
   }
   
   body {
