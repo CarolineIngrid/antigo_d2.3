@@ -2,11 +2,15 @@
     list-style: none;
     color: #fff;
     text-align: right;
+    font-family:sans-serif;
+    font-size: 18px;
+    margin-right: 12%;
+    padding-top: 2%;
 }
 
 .barra-navegacao li{
     display: inline;
-    padding: 5px;
+    padding: 20px;
 }
 
 /* ------------- BACKGROUND DIAGONAL ---------- */
@@ -15,14 +19,15 @@
     width: 100%;
     margin-bottom: 100px;
     min-width: auto;
-    height: 1000px;
-    background-image: -webkit-linear-gradient(25deg,  #f9f9f9 60%, #00a78e 40%);
+    height: 920px;
+    background-image: -webkit-linear-gradient(25deg,  #f9f9f9 50%, #00a78e 50%);
 }
 
 /* ------------------------------------------------------ */
 
 .container{
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-top: 10%;
   }
   
   body {
@@ -55,17 +60,20 @@
   }
   /* --------------------------------- */
   
-  img{
-    margin-top: 20px;
-    margin-left: -14%;
-  }
-  
   .cinza{
     color: #949ca2;
   }
   
   .foto{
+    margin-left: 18%;
     text-align: center;
+   margin-top: -370px;
+
+  }
+
+  .foto img{
+    width: 540px;
+    height: 800px;
   }
   
   #informacoes{
