@@ -1,6 +1,13 @@
 .barra-navegacao{
     list-style: none;
     color: brown;
+    text-align: right;
+    /* display:inline; */
+}
+
+.barra-navegacao li{
+    display: inline;
+    padding: 5px;
 }
 
 .container{
