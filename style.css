@@ -2,7 +2,6 @@
     list-style: none;
     color: #fff;
     text-align: right;
-    /* display:inline; */
 }
 
 .barra-navegacao li{
@@ -14,11 +13,10 @@
 
 .background-linear {
     width: 100%;
+    margin-bottom: 100px;
     min-width: auto;
-    height: auto;
-    /* min-height: 600px; */
-    background-color: #fff;
-    background-image: -webkit-linear-gradient(25deg, #fff 60%, #00a78e 40%);
+    height: 1000px;
+    background-image: -webkit-linear-gradient(25deg,  #f9f9f9 60%, #00a78e 40%);
 }
 
 /* ------------------------------------------------------ */
