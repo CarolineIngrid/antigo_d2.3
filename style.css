@@ -1,3 +1,17 @@
+/* ------------- BACKGROUND DIAGONAL ---------- */
+
+.background-linear {
+  width: 100%;
+  margin-bottom: 100px;
+  min-width: auto;
+  height: 920px;
+  background-image: -webkit-linear-gradient(25deg,  #f7fdff 50%, #0c3b76 50%);
+}
+
+/* ------------------------------------------------------ */
+.home{
+  height: 800px;
+}
 .barra-navegacao{
     list-style: none;
     color: #f7fdff;
@@ -14,21 +28,8 @@
     padding: 20px;
 }
 
-/* ------------- BACKGROUND DIAGONAL ---------- */
-
-.background-linear {
-    width: 100%;
-    margin-bottom: 100px;
-    min-width: auto;
-    height: 920px;
-    background-image: -webkit-linear-gradient(25deg,  #f7fdff 50%, #0c3b76 50%);
-}
-
-/* ------------------------------------------------------ */
-
 .container{
-    margin-left: 5%;
-    margin-top: 10%;
+    margin-left: 2%;
     line-height: 36px;
     padding-right: 65%;
   }
@@ -42,8 +43,43 @@
 
   #sobre{
     background-color: #d7d9db;
-    height: 900px;
+    height: 800px;
+    width: 1700px;
   }
+
+  #sobre > img {
+    width: 400px;
+    height: 400px;
+  }
+
+  #sobre{
+    line-height: 36px;
+    padding-left: 15%;
+  }
+
+  .sobre-textos > p{
+    text-align: justify;
+    margin-right: 20%;
+    padding-left: 30%;
+    margin-top: -150px;
+
+  }
+
+  .sobre-textos h2{
+    font-weight: bolder;
+   letter-spacing: 8px;
+   margin-left: 5%;
+  }
+
+  .progresso label, progress{
+    /* height: 800px;
+    width: 700px;
+    text-align: justify; */
+    margin-top: 50%;
+  
+  }
+
+
 
   .servicos{
     background-color: #0c3b76;
@@ -70,7 +106,9 @@
     filter: drop-shadow(15px 10px 5px rgba(151, 150, 150, 0.5));
   }
 
-.barra-navegacao li >:hover{
+  /* --------------------------------- */
+
+  .barra-navegacao li >:hover{
     color: #dae2c3;
   }
 
@@ -78,26 +116,28 @@
     color: #fff;
     text-decoration: none;
   }
-  /* --------------------------------- */
   
   
   .foto{
-    margin-left: 18%;
+    margin-left: 35%;
     text-align: center;
-    margin-top: -370px;
+    height: 600px;
+    width: 600px;
+   margin-top: -291px;
 
   }
 
   .foto img{
     width: 800px;
     height: 800px;
+    margin-bottom: 30%;
+
   }
 
-  #sobre img {
-    width: 600px;
-    height: 600px;
+  .progresso{
+    text-align: right;
+    padding-left: 60%;
   }
-
   /* -----------------TIPOGRAFIA ------------------- */
 
   .cinza{
