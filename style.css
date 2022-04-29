@@ -64,8 +64,9 @@ html {
     text-align: right;
     padding-left: 5%;
     margin-top: 10%;
-    margin-right: 40%;
-    margin-left: 22%;
+    margin-right: 5%;
+    padding-right: 30%;
+    margin-left: 30%;
     display: block;
   }
 
@@ -84,15 +85,17 @@ html {
   }
 
   .quadrado-servicos{
-    width: 300px;
-    height: 300px;
+    color: black;
+    width: 200px;
+    height: 200px;
     border-radius: 6%;
     background-color: #fff;
-    opacity: 0.3;
+    opacity: 0.6;
+    padding-top: 50%;
     text-align: center;
     display: inline-block;
     margin-left: 50px;
-    margin-right: 130px;
+    margin-right: 120px;
     margin-top: 50px;
     position: relative;
   }
