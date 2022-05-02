@@ -21,14 +21,14 @@
 
   <body>
 
-    <div class="home background-linear">
+    <div class="home background-linear" id="home">
         <nav>
             <ul class="barra-navegacao">
-                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Preços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#preco">Preços</a></li>
             </ul>
         </nav>
     
@@ -72,20 +72,31 @@
               desenvolvi tanto habilidades técnicas, quanto de gestão e liderança de equipes.</p>
 
               <div class="progresso"> 
-                <label for="file">alguma coisa aqui UX:</label>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <div class="progressline">
+                  <label for="file">alguma coisa aqui UX:</label>
+                  <progress id="file" value="42" max="100"> 32% </progress>
+                </div>
+                
+                <div class="progressline">
+                  <label for="file">alguma coisa aqui UX:</label>
+                  <progress id="file" value="60" max="100"> 32% </progress>
+                </div>
+                
+                <div class="progressline">
+                  <label for="file">alguma coisa aqui UX:</label>
+                  <progress id="file" value="32" max="100"> 32% </progress>
+                </div>
+                
+                <div class="progressline">
+                  <label for="file">alguma coisa aqui UX:</label>
+                  <progress id="file" value="22" max="100"> 32% </progress>
+                </div>
     
-                <label for="file">alguma coisa aqui UX:</label>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <div class="progressline">
+                  <label for="file">alguma coisa aqui UX:</label>
+                  <progress id="file" value="82" max="100"> 32% </progress>
+                </div>
     
-                <label for="file">alguma coisa aqui UX:</label>
-                <progress id="file" value="32" max="100"> 32% </progress>
-    
-                <label for="file">alguma coisa aqui UX:</label>
-                <progress id="file" value="32" max="100"> 32% </progress>
-    
-                <label for="file">alguma coisa aqui UX:</label>
-                <progress id="file" value="32" max="100"> 32% </progress>
               </div>
 
           </div>
@@ -95,7 +106,6 @@
   <!-- ----------- SERVIÇOS ------------- -->
 
     <div class="servicos" id="servicos">
-      <div class="margin-servicos">
 
         <div class="quadrado-servicos"> Design Gráfico</div>
         <div class="quadrado-servicos"> Web Design </div>
@@ -103,55 +113,52 @@
         <div class="quadrado-servicos"> Frontend Development</div>
         <div class="quadrado-servicos"> Business Analysis</div>
         <div class="quadrado-servicos"> Digital Marketing </div>
-
-      </div>
         
     </div>
 
-    <!-- --------------------- SERVIÇOS ---------------- -->
+    <!-- --------------------- PROJETOS ---------------- -->
 
-  <div class="portfolio">
-    Últimos Projetos
-  </div>
+    <div id="portfolio">
 
-  <!-- <h3>Projetos</h3>
-  <ul>
-    <li> 
-        - Studio Digital: Um Design Library versátil, com foco na colaboração e
+      <div class="quadrado-port">
+        Um Design Library versátil, com foco na colaboração e
         documentação. Construído para ser utilizado em diferentes projetos, por todo o
         time de design e melhorar as entregas.
-    </li>
-    <li> 
-      - Melhores Marcas: Solução institucional com e-commerce integrado. A empresa
-      oferece materiais de construção, bricolagem, jardinagem e EPIs, entre outros.
-    </li>
-    <li>
-      - UX Case: Sistema para o SAMU de São Paulo, voltado para a gestão de
-      ocorrências, de efetivo e recursos, das operações deflagradas em todo o
-      território nacional.
-    </li>
-  </ul>
+      </div>
 
-<h3> Habilidades</h3>
-  <ul>
-    <li> UX Strategy</li>
-    <li>UX Research</li>
-    <li>Product Design</li>
-    <li>Interection design</li>
-    <li> UI Design</li>
-    <li>UX Writer</li>
-    <li>Design Thinking</li>
-    <li>Figma</li>
-    <li>Sketch</li>
-    <li>HTML & CSS</li>
-  </ul>
+      <div class="quadrado-port">
+        Solução institucional com e-commerce integrado. A empresa
+        oferece materiais de construção, bricolagem, jardinagem e EPIs, entre outros.
+      </div>
 
-<h3> Contato: </h3>
-    <ul>
-      <li> E-Mail: enzo@example.designer</li>
-      <li> Fone:(11) 991002003</li>
-    </ul> -->
+      <div class="quadrado-port">
+        UX Case: Sistema para o SAMU de São Paulo, voltado para a gestão de
+        ocorrências, de efetivo e recursos, das operações deflagradas em todo o
+        território nacional.
+
+      </div>
     
+    </div>
+      
+    <div id="preco">
+      <div class="quadrado-preco">
+        </div>
+
+      <div class="quadrado-preco">
+      </div>
+
+      <div class="quadrado-preco">
+      </div>
+
+    </div>
+  <footer>
+    <h3> Contato: </h3>
+    <ul>
+      <li> E-mail: enzo@example.designer</li>
+      <li> Fone: (11) 991002-003</li>
+      <li><a href="#home" > Voltar ao topo!</a></li>
+    </ul>
+  </footer>
 
   </body>
 </html>
