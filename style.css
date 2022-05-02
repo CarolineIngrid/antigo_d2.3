@@ -1,7 +1,17 @@
-/* ------------- BACKGROUND DIAGONAL ---------- */
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: #293651;
+}
+/* -----------------------HOME------------------------------- */
+.home{
+  height: 800px;
 }
 
 .background-linear {
@@ -12,10 +22,6 @@ html {
   background-image: -webkit-linear-gradient(25deg,  #f7fdff 50%, #0c3b76 50%);
 }
 
-/* ------------------------------------------------------ */
-.home{
-  height: 800px;
-}
 .barra-navegacao{
     list-style: none;
     color: #f7fdff;
@@ -32,140 +38,204 @@ html {
     padding: 20px;
 }
 
+
+.barra-navegacao li >:hover{
+  color: #bedd62;
+}
+
+.barra-navegacao li > a{
+  color: #fff;
+  text-decoration: none;
+}
+
 .container{
-    margin-left: 2%;
-    line-height: 36px;
-    padding-right: 65%;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 21px;
-    font-weight: 400;
-    color: #293651;
-  }
+  margin-left: 2%;
+  line-height: 36px;
+  padding-right: 65%;
+}
+
+.foto{
+  margin-left: 35%;
+  text-align: center;
+  height: 600px;
+  width: 600px;
+ margin-top: -291px;
+
+}
+
+.foto img{
+  width: 800px;
+  height: 800px;
+  margin-bottom: 30%;
+
+}
+
+/* --------BOTÃO---------- */
+.info{
+  background-color: #6a8d11;
+  height: 45px;
+  width: 220px;
+  border: none;
+  border-radius: 30px;
+  color: #ffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.info:hover{
+  transform: scale(1.1);
+  -webkit-filter: drop-shadow(10px 5px 5px rgba(139, 134, 134, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(151, 150, 150, 0.5));
+}
+
+/* -----------------SOBRE----------------------- */
 
   #sobre{
     background-color: #d7d9db;
     height: 800px;
-    width: 85%;
-    line-height: 36px;
-    padding-left: 15%;
+    width: 90%;
+    line-height: 20px;
+    padding-left: 10%;
+    margin-bottom: 30px;
+    display: block;
+  
+  }
+
+  #sobre h2{
+    text-align: left;
+  }
+
+  .sobre-textos{
+    display: inline;
+  }
+
+  #sobre p{
+    padding-left: 100px;
+    margin-right: 8%;
+    margin-left: 15%;
+    padding-top: 4%;
+    
   }
 
   #sobre > img {
-    width: 400px;
-    height: 400px;
-    margin-right: 2%;
+    width: 350px;
+    height: 350px;
+    margin-left: -8%;
     margin-top: 3%;
   }
 
-  .progresso{
-    text-align: right;
-    padding-left: 5%;
-    margin-top: 10%;
-    margin-right: 5%;
-    padding-right: 30%;
-    margin-left: 30%;
-    display: block;
+  .sobre-textos h2{
+    font-weight: bolder;
+    letter-spacing: 6px;
+
   }
 
-  .margin-servicos{
-    margin-left: 30px;
+  .progresso{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 25%;
+  }
+
+progress{
+    /* margin-left: 40%; */
+    /* display: block; */
+    accent-color: #0c3b76;  
+  }
+
+  progress, file{
+    /* margin-left: 35%;
+    padding-left: 40%; */
+    display: inline-block;
+    padding-right: 10%;
+    
+  }
+
+  progress label{
+    line-height: 50%;
+    padding-top: 10%;
+  }
+
+  .progressline{
+    margin-top: 2%;
   }
   /* ----------------- PÁGINA SERVIÇOS ------------------ */
   .servicos{
     background-color: #0c3b76;
-    margin-top: 50px;
     width: 100%;
-    height: 800px;
+    height: 750px;
     color: black;
-    text-align: center;
-    padding-top: 10px;
+    padding-top: 8%;
+    column-count: 3;
+    column-gap: 20px;
+
   }
 
   .quadrado-servicos{
-    color: black;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 6%;
     background-color: #fff;
-    opacity: 0.6;
-    padding-top: 50%;
+    opacity: 0.7;
+    margin-bottom: 30px;
     text-align: center;
+    margin-left: 25%;
+  }
+
+  /* efeito agua */
+
+
+
+  /* ---------------PORTFOLIO------------------ */
+  #portfolio{
+    background-color: rgb(0, 86, 136);
+    margin-top: 5%;
+    height: 500px;
+  
+  }
+
+  .quadrado-port{
+    height: 250px;
+    width: 400px;
+    background-color: #acd15d;
+    opacity: 0.7;
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 120px;
-    margin-top: 50px;
-    position: relative;
-  }
+    margin-left: 9%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
   
-  .quadrado-servicos::before {
-    content: '';
-    background-color: #6a8d11;
-    border-radius: 5%;
-    position: absolute;
-    left: 0;
-    bottom: 2px;
-    width: 100%;
-    height: 1px;
-    z-index: -1;
-    transition: all .3s ease-in-out;
-  }
-  
-  .quadrado-servicos:hover::before {
-    bottom: 0;
-    height: 100%;
-  }
-  
-  /* --------BOTÃO---------- */
-  .info{
-    background-color: #6a8d11;
-    height: 45px;
-    width: 220px;
-    border: none;
-    border-radius: 30px;
-    color: #ffff;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
   }
 
-  .info:hover{
-    transform: scale(1.1);
-    -webkit-filter: drop-shadow(10px 5px 5px rgba(139, 134, 134, 0.5));
-    filter: drop-shadow(15px 10px 5px rgba(151, 150, 150, 0.5));
+  #preco{
+    background-color: #acd15d;
+    column-count: 4;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
-  /* --------------------------------- */
-
-  .barra-navegacao li >:hover{
-    color: #dae2c3;
+  .quadrado-preco{
+    text-align: center;
+    border-radius: 22%;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 300px;
+    height: 400px;
+    background-color: #d7d9db;
+  }
+/* ---------------------- FOOTER ------------------ */
+  footer{
+    height: 300px;
+    background-color: #d7d9db;
+    text-align: center;
+    line-height: 50px;
   }
 
-  .barra-navegacao li > a{
-    color: #fff;
+  footer li > a{
+    color: #042774;
     text-decoration: none;
   }
-  
-  
-  .foto{
-    margin-left: 35%;
-    text-align: center;
-    height: 600px;
-    width: 600px;
-   margin-top: -291px;
-
-  }
-
-  .foto img{
-    width: 800px;
-    height: 800px;
-    margin-bottom: 30%;
-
-  }
-
   /* -----------------TIPOGRAFIA ------------------- */
 
   .cinza{
@@ -192,9 +262,102 @@ html {
     margin-top: -150px;
 
   }
+  /* ===================================Media Queries=============================== */
 
-  .sobre-textos h2{
-    font-weight: bolder;
-   letter-spacing: 8px;
-   margin-left: 6%;
+  @media screen and (max-width: 767px){
+  h1{
+      font-size: 35px;
   }
+
+  h3{
+    font-size: 16px;
+  }
+
+  .container{
+    padding: 10px;
+  }
+
+  .foto img{
+    height: 50%;
+    width: 50%;
+    margin-top: 45%;
+    margin-right: 45%;
+  }
+
+
+  .img-logo{
+      height: 40px;
+      width: 135px;
+      background: url("imagens/spotify.svg") no-repeat;
+      display: block;
+      background-size: contain;
+      color: transparent;
+      margin-left: 20px;
+  }
+
+  .background-linear {
+    width: 100%;
+    margin-bottom: 100px;
+    min-width: auto;
+    height: 600px;
+    background-image: -webkit-linear-gradient(25deg,  #f0efef 70%, #0c3b76 30%);
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #293651;
+  }
+
+  .barra-navegacao li > a{
+   background-color: #bdc9b2;
+   border-radius: 10%;
+   color: #042774;
+    font-size: 14px;
+    padding: -10%;
+  }
+
+  .barra-navegacao li{
+    margin-right: -2%;
+  
+  }
+
+  .barra-navegacao{
+    margin-right: 1%;
+    padding-top: 2%;
+}
+
+.info{
+  
+  height: 30px;
+  width: 180px;
+  color: #ffff;
+  font-size: 14px;
+ 
+ }
+
+ #sobre img{
+   width: 50%;
+   height: 40%;
+   margin-left: -20%;
+ }
+
+ /* .sobre-textos{
+   padding-right: 50%;
+   margin-left: 10%;
+ } */
+
+ #sobre{
+  text-align: justify;
+  display: inline-block;
+}
+
+ .cinza{
+   font-size: 15px;
+   padding-right: 35%;
+ }
+}
+
+
+  
